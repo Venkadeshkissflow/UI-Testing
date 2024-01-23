@@ -17,3 +17,13 @@ export default {
     control: "text",
   },
 };
+
+// export const PrimarySearchInput = {
+//   args: {
+//     value: "Welcome",
+//   },
+// };
+
+const Template = (args) => <SearchInput {...args} />;
+
+export const PrimarySearch = Template.bind({});
